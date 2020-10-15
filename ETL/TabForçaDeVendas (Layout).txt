@@ -1,0 +1,12 @@
+Campo			Posição
+---------------------	-------
+Código do Vendedor	0
+Nome do Vendedor	5
+Código do Coordenador	55
+Nome do Coordenador	60
+Código do Gerente	110
+Nome do Gerente		115
+
+0, 5, 55, 60, 110, 115
+
+= Table.RenameColumns(#"Tipo Alterado",{{"Column1", "Código do Vendedor"}, {"Column2", "Nome do Vendedor"}, {"Column3", "Código do Coordenador"}, {"Column4", "Nome do Coordenador"}, {"Column5", "Código do Gerente"}, {"Column6", "Nome do Gerente"}})

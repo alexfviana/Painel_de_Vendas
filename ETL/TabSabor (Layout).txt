@@ -1,0 +1,6 @@
+Código do Sabor
+Nome do Sabor
+Código da Família
+Valor Referência
+
+= Table.RenameColumns(TabSabor1,{{"Código_x0020_do_x0020_Sabor", "Código do Sabor"}, {"Nome_x0020_do_x0020_Sabor", "Nome do Sabor"}, {"Código_x0020_da_x0020_Família", "Código da Família"}, {"Valor_x0020_Referência", "Valor Referência"}})

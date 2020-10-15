@@ -1,0 +1,14 @@
+Código IBGE
+Nome do Município
+Código do Microrregiões
+Nome do Microrregiões
+Código do Mesorregião
+Nome do Mesorregião
+Código da UF
+Sigla da UF
+Nome da UF
+Código da Região
+Sigla da Região
+Nome da Região
+
+= Table.RenameColumns(#"regiao Expandido",{{"id", "Código IBGE"}, {"nome", "Nome do Município"}, {"id.1", "Código do Microrregiões"}, {"nome.1", "Nome do Microrregiões"}, {"id.2", "Código do Mesorregião"}, {"nome.2", "Nome do Mesorregião"}, {"id.3", "Código da UF"}, {"sigla", "Sigla da UF"}, {"nome.3", "Nome da UF"}, {"id.4", "Código da Região"}, {"sigla.1", "Sigla da Região"}, {"nome.4", "Nome da Região"}})
